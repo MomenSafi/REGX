@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<div class="container">
+    <form id="registrationForm">
+        <h1>Registration Form</h1>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <div class="wrong" id="wrongeFName"></div>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <div class="wrong" id="wrongeLName"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <div class="wrong" id="wrongeEmail"></div>
+
+        <label for="ConfirmEmail">Confirm Email:</label>
+        <input type="email" id="ConfirmEmail" name="ConfirmEmail" required>
+        <div class="wrong" id="wrongeEmailConfirm"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <div class="wrong" id="wrongePassword"></div>
+
+        <label for="ConfirmPassword">Confirm Password:</label>
+        <input type="password" id="ConfirmPassword" name="ConfirmPassword" required>
+        <div class="wrong" id="wrongeConfirmPassword"></div>
+
+        <input type="submit" id="Register" value="Register">
+    </form>
+</div>
+
+<div class="container">
+    <form id="loginForm">
+        <h1>Login</h1>
+
+        <label for="email">Email:</label>
+        <input type="email" id="emailCheak" name="email" required>
+        <div class="wrong" id="wrongemailLogin"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="passwordCheak" name="password" required>
+        <div class="wrong" id="wrongpasswordLogin"></div>
+
+        <input type="submit" id="Login" value="Login">
+    </form>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
